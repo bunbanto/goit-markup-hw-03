@@ -13,11 +13,10 @@ p {
   margin: 0;
 }
 .container {
-  max-width: 1128px;
-  padding-left: 156px;
-  padding-right: 156px;
-  margin-left: 0;
-  margin-right: 0;
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 ul,
 ol {
@@ -40,8 +39,8 @@ a {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
-
-  /* line-height: 21px; */
+  margin-top: 100px;
+  margin-bottom: 16px;
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -51,8 +50,6 @@ a {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
-
-  /* line-height: 21px; */
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -61,8 +58,6 @@ a {
 .link {
   font-weight: 500;
   font-size: 16px;
-
-  /* line-height: 24px; */
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #2e2f42;
@@ -71,8 +66,6 @@ a {
 .page-nav .link:focus {
   font-weight: 500;
   font-size: 16px;
-
-  /* line-height: 24px; */
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #404bbf;
@@ -83,8 +76,6 @@ a {
 .address .clink {
   font-weight: 400;
   font-size: 16px;
-
-  /* line-height: 24px; */
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
@@ -93,8 +84,6 @@ a {
 .address .clink:focus {
   font-weight: 400;
   font-size: 16px;
-
-  /* line-height: 24px; */
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #404bbf;
@@ -105,8 +94,6 @@ a {
 .main-title {
   font-weight: 700;
   font-size: 56px;
-
-  /* line-height: 60px; */
   line-height: 107%;
   letter-spacing: 0.02em;
   text-align: center;
@@ -116,8 +103,6 @@ a {
   background-color: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
-
-  /* line-height: 24px; */
   line-height: 150%;
   letter-spacing: 0.04em;
   color: #fff;
@@ -130,8 +115,6 @@ a {
 .title-features-descr {
   font-weight: 500;
   font-size: 20px;
-
-  /* line-height: 24px; */
   line-height: 120%;
   letter-spacing: 0.02em;
   color: #2e2f42;
@@ -139,8 +122,6 @@ a {
 .features-text {
   font-weight: 400;
   font-size: 16px;
-
-  /* line-height: 24px; */
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
@@ -154,8 +135,6 @@ a {
 .title-team {
   font-weight: 700;
   font-size: 36px;
-
-  /* line-height: 40px; */
   line-height: 111%;
   letter-spacing: 0.02em;
   text-align: center;
@@ -165,8 +144,6 @@ a {
 .title-name {
   font-weight: 500;
   font-size: 20px;
-
-  /* line-height: 24px; */
   line-height: 120%;
   letter-spacing: 0.02em;
   text-align: center;
@@ -175,8 +152,6 @@ a {
 .descr-team {
   font-weight: 400;
   font-size: 16px;
-
-  /* line-height: 24px; */
   line-height: 150%;
   letter-spacing: 0.02em;
   text-align: center;
@@ -185,8 +160,6 @@ a {
 .title-portfolio {
   font-weight: 700;
   font-size: 36px;
-
-  /* line-height: 40px; */
   line-height: 111%;
   letter-spacing: 0.02em;
   text-align: center;
@@ -196,8 +169,6 @@ a {
 .title-name-prod {
   font-weight: 500;
   font-size: 20px;
-
-  /* line-height: 24px; */
   line-height: 120%;
   letter-spacing: 0.02em;
   color: #2e2f42;
@@ -205,8 +176,6 @@ a {
 .text-spec {
   font-weight: 400;
   font-size: 16px;
-
-  /* line-height: 24px; */
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
@@ -218,8 +187,6 @@ a {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
-
-  /* line-height: 21px; */
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -228,9 +195,13 @@ a {
 .text-end {
   font-weight: 400;
   font-size: 16px;
-
-  /* line-height: 24px; */
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+.end .container {
+  width: 264px;
+  height: 112px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
