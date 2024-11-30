@@ -18,8 +18,10 @@ p {
   padding-right: 15px;
   margin: 0 auto;
 }
-.hat {
+.container.hat {
   display: flex;
+  align-items: center;
+  text-align: center;
 }
 ul,
 ol {
@@ -41,12 +43,15 @@ a {
   border-bottom: 1px solid #e7e9fc;
 }
 .logo {
+  display: inline-block;
+  width: 115px;
+  height: 24px;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
-  margin-top: 100px;
-  margin-right: 76px
-  margin-bottom: 16px;
+  align-items: center;
+  text-align: center;
+  margin: 24px 76px 24px 156px;
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -61,11 +66,17 @@ a {
   text-transform: uppercase;
   color: #2e2f42;
 }
-.list-logo {
+.list {
   display: flex;
+  width: 261px;
+  height: 24px;
+  align-items: center;
+  text-align: center;
+  margin: 24px 100px 24px 76px;
   gap: 40px;
 }
-.link {
+
+.list-link {
   padding: 24px 0;
   font-weight: 500;
   font-size: 16px;
@@ -78,30 +89,35 @@ a {
   display: flex;
   align-items: center;
 }
-.page-nav .link:hover,
-.page-nav .link:focus {
+.page-nav .list-link:hover,
+.page-nav .list-link:focus {
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #404bbf;
 }
-.address {
+.contact {
+  text-align: center;
   font-style: normal;
 }
-.contact-link {
+.contact-list {
+  align-items: center;
+  text-align: center;
   display: flex;
   gap: 40px;
 }
-.address .clink {
+.contact .contact-link {
+  display: inline-block;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
 }
-.address .clink:hover,
-.address .clink:focus {
+
+.contact .contact-link:hover,
+.contact .contact-link:focus {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
@@ -149,7 +165,14 @@ a {
 .team {
   background-color: #f4f4fd;
 }
+.list-team {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+}
+
 .member-team {
+  flex-basis: calc((100% - 2 * 24px) / 3);
   background-color: #ffffff;
 }
 .title-team {
