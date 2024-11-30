@@ -225,7 +225,9 @@ a {
 }
 .end {
   background-color: #2e2f42;
-  padding: 100px 1020px 100px 156px;
+  /* padding: 100px 1020px 100px 156px; */
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .logo {
   display: inline-block;
