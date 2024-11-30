@@ -225,10 +225,12 @@ a {
 }
 .end {
   background-color: #2e2f42;
-  padding: 100px 0;
+  padding: 100px 1020px 100px 156px;
 }
 .logo {
   display: inline-block;
+  margin-bottom: 16px;
+  margin-left: 156px;
 }
 .studio-end {
   font-family: 'Raleway', sans-serif;
@@ -240,13 +242,16 @@ a {
   color: #f4f4fd;
 }
 .text-end {
+  max-width: 264px;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  margin-left: 156px;
+  margin-bottom: 100;
 }
-.end .container {
+.container.foot {
   padding-top: 100px;
   padding-bottom: 100px;
 }
