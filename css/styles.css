@@ -18,11 +18,6 @@ p {
   padding-right: 15px;
   margin: 0 auto;
 }
-.container.hat {
-  display: flex;
-  /*align-items: center;
-  text-align: center; */
-}
 
 ul,
 ol {
@@ -43,6 +38,16 @@ a {
 .start {
   border-bottom: 1px solid #e7e9fc;
 }
+.hat {
+  display: flex;
+  /*align-items: center;
+  text-align: center; */
+}
+.page-nav {
+  display: flex;
+  align-items: center;
+  align-items: auto;
+}
 .logo {
   display: inline-block;
   width: 115px;
@@ -50,9 +55,7 @@ a {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
-  align-items: center;
-  text-align: center;
-  margin: 24px 76px 24px 156px;
+  margin-right: 76px;
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -73,12 +76,14 @@ a {
   height: 24px;
   align-items: center;
   text-align: center;
-  margin: 24px 0 24px 0;
+  margin: 24px 332px 24px 0;
   gap: 40px;
 }
-
+.list-item {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 .list-link {
-  padding: 24px 0;
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
@@ -86,10 +91,6 @@ a {
   color: #2e2f42;
 }
 
-.page-nav {
-  display: flex;
-  align-items: center;
-}
 .page-nav .list-link:hover,
 .page-nav .list-link:focus {
   font-weight: 500;
@@ -167,7 +168,7 @@ a {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.visually-hidden {
+.title-features.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -255,9 +256,8 @@ a {
   text-align: center;
   color: #434455;
 }
-.our-portdfolio {
-  padding-top: 120px;
-  padding-bottom: 120px;
+.our-portfolio {
+  padding: 120px 0 120px 0;
 }
 .title-portfolio {
   margin-bottom: 72px;
@@ -305,10 +305,18 @@ a {
   padding-top: 100px;
   padding-bottom: 100px;
 }
-.logo {
+.logo-end {
   display: inline-block;
   margin-bottom: 16px;
-  margin-left: 156px;
+  width: 115px;
+  height: 24px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 .studio-end {
   font-family: 'Raleway', sans-serif;
@@ -326,10 +334,5 @@ a {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  margin-left: 156px;
   margin-bottom: 100;
-}
-.container.foot {
-  padding-top: 100px;
-  padding-bottom: 100px;
 }
