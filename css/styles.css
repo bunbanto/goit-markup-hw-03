@@ -20,9 +20,10 @@ p {
 }
 .container.hat {
   display: flex;
-  align-items: center;
-  text-align: center;
+  /*align-items: center;
+  text-align: center; */
 }
+
 ul,
 ol {
   margin: 0;
@@ -72,7 +73,7 @@ a {
   height: 24px;
   align-items: center;
   text-align: center;
-  margin: 24px 100px 24px 76px;
+  margin: 24px 150px 24px 0;
   gap: 40px;
 }
 
@@ -100,6 +101,7 @@ a {
 .contact {
   text-align: center;
   font-style: normal;
+  align-self: center;
 }
 .contact-list {
   align-items: center;
