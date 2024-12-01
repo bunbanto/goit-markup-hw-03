@@ -102,12 +102,12 @@ a {
   text-align: center;
   font-style: normal;
   align-self: center;
-  /* margin: 0 auto; */
 }
 .contact-list {
   align-items: center;
   text-align: center;
   display: flex;
+  margin-left: 332px;
   gap: 40px;
 }
 .contact .contact-link {
@@ -157,7 +157,8 @@ a {
   height: 56px;
   border: none;
   border-radius: 4px;
-  /* margin: 48px auto; */
+  margin-top: 48px;
+  margin-left: 164px;
 }
 .order-btn:hover,
 .order-btn:focus {
@@ -182,13 +183,12 @@ a {
 
 .list-descr {
   display: flex;
-  /* margin-right: 24px; */
+
   gap: 24px;
 }
 .item-descr {
   display: inline-block;
   width: calc((100% - 72px) / 4);
-  /* margin-right: 24px; */
 }
 .title-features-descr {
   margin-bottom: 8px;
@@ -213,7 +213,7 @@ a {
 }
 .list-team {
   gap: 24px;
-  /* padding-bottom: 120px; */
+
   display: flex;
   flex-wrap: wrap;
 }
@@ -229,7 +229,7 @@ a {
 }
 .title-team {
   margin-bottom: 72px;
-  /* padding: 120px 0; */
+
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
@@ -262,7 +262,7 @@ a {
 }
 .title-portfolio {
   margin-bottom: 72px;
-  /* margin-top: 120px; */
+
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
@@ -276,7 +276,6 @@ a {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  /* padding-bottom: 120px; */
 }
 .title-name-prod {
   margin-bottom: 8px;
