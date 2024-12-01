@@ -238,7 +238,7 @@ a {
 }
 .title-name {
   text-align: center;
-  margin-bottom: 8px
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
@@ -257,7 +257,7 @@ a {
 }
 .our-portdfolio {
   padding-top: 120px;
-  /* padding-bottom: 120px; */
+  padding-bottom: 120px;
 }
 .title-portfolio {
   margin-bottom: 72px;
