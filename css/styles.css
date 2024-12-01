@@ -46,7 +46,6 @@ a {
 .page-nav {
   display: flex;
   align-items: center;
-  align-items: auto;
 }
 .logo {
   display: inline-block;
@@ -167,7 +166,7 @@ a {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.title-features.visually-hidden {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
