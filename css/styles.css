@@ -174,14 +174,15 @@ a {
   white-space: nowrap;
   border: 0;
 }
-.list-desr {
+.list-descr {
   display: flex;
-  margin-right: 24px
+  margin-right: 24px;
   gap: 24px;
 }
-.item-desrc {
- display: inline-block;
+.item-descr {
+  display: inline-block;
   width: calc((100% - 72px) / 4);
+  /* margin-right: 24px; */
 }
 .title-features-descr {
   margin-bottom: 8px;
