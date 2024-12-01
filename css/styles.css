@@ -204,23 +204,30 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.team {
+.our-team {
+  padding-top: 120px;
+  padding-bottom: 120px;
   background-color: #f4f4fd;
 }
 .list-team {
+  gap: 24px;
   padding-bottom: 120px;
   display: flex;
   flex-wrap: wrap;
-  gap: 48px 24px;
 }
 
 .member-team {
-  /*object-fit: fill;*/
+  border-radius: 0px 0px 4px 4px;
   flex-basis: calc((100% - 3 * 24px) / 4);
   background-color: #ffffff;
 }
+.member-box {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 .title-team {
-  padding: 120px 0;
+  margin-bottom: 72px;
+  /* padding: 120px 0; */
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
@@ -230,6 +237,8 @@ a {
   text-transform: capitalize;
 }
 .title-name {
+  text-align: center;
+  margin-bottom: 8px
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
@@ -238,6 +247,7 @@ a {
   color: #2e2f42;
 }
 .descr-team {
+  text-align: center;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
@@ -246,7 +256,8 @@ a {
   color: #434455;
 }
 .our-portdfolio {
-  padding: 120px 0 120px 0;
+  padding-top: 120px;
+  /* padding-bottom: 120px; */
 }
 .title-portfolio {
   margin-bottom: 72px;
@@ -264,9 +275,10 @@ a {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  padding-bottom: 120px;
 }
 .title-name-prod {
-  margin-bottom: 8px
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
